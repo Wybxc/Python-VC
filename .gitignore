@@ -1,0 +1,14 @@
+# cache files
+__pycache__
+
+# pretrained models
+*.pt
+*.pth
+*.npy
+
+# data files
+*.wav
+
+# training temp files
+/checkpoints
+/proprocessed
