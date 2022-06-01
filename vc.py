@@ -38,6 +38,9 @@ def load_models(
     load_hifigan_model(Path(hifigan_path), Path(hifigan_config_path))
 
 
+def is_model_loaded():
+    return _extractor is not None and _convertor is not None
+
 class VoiceTarget:
     wav: np.ndarray
     embed: np.ndarray

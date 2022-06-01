@@ -14,4 +14,6 @@ conda env create -f env.yml
 
 ## 运行
 
-参考 `test_vc.py`。
+```
+python main.py
+```
